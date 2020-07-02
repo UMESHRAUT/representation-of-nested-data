@@ -62,13 +62,11 @@ a:hover{
 .true>a i{
   background: rgb(58, 56, 56);
   color:rgb(0, 132, 255);
-  transform: translateX(-50%) translateY(20%) rotate(90deg); 
+  transform: rotate(90deg); 
   transition: 0.2s;
 }
 
 .false>a i{
-  background: rgb(58, 56, 56);
-  color:rgb(0, 132, 255);
-  transform: translateX(-50%) translateY(0%) rotate(0deg); 
+  transform:rotate(0deg); 
   transition: 0.2s;
 }
