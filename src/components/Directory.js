@@ -121,9 +121,10 @@ export default class Directory extends Component {
          }
     render() {
         return (
-            <div>
-                <div div className="main">
-            <span className="text">File directory</span>
+            <div className="main">
+              <span className="text">File directory</span>
+                <div div className="dir">
+            
          {data.map((item,index)=>{
              return< div className={item.clicked}>
              

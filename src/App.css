@@ -19,11 +19,15 @@
   font-size: 30px;
   text-align: center;
   padding: 0;
-  margin: 0;
-  width: 100%;
+  margin: auto;
   display: block;
   background: rgb(0, 132, 255);
   margin-bottom: 20px;
+  position: fixed;
+  width: 500px;
+}
+.dir{
+  margin-top: 50px;
 }
 
 a{
@@ -60,8 +64,6 @@ a:hover{
   color:rgb(0, 132, 255);
 }
 .true>a i{
-  /* background: rgb(58, 56, 56);
-  color:rgb(0, 132, 255); */
   transform: rotate(90deg); 
   transition: 0.2s;
 }
