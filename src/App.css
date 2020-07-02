@@ -60,8 +60,8 @@ a:hover{
   color:rgb(0, 132, 255);
 }
 .true>a i{
-  background: rgb(58, 56, 56);
-  color:rgb(0, 132, 255);
+  /* background: rgb(58, 56, 56);
+  color:rgb(0, 132, 255); */
   transform: rotate(90deg); 
   transition: 0.2s;
 }
