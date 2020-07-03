@@ -3,10 +3,9 @@
 
 .main{
   width: 500px;
-  scrollbar-width: none;
   min-height: 300px;
   max-height: 350px;
-  overflow: scroll;
+  overflow: auto;
   margin: auto;
   left: 0;
   background: rgb(25, 25, 26);
@@ -14,6 +13,9 @@
   color: white;
   font-family: sans-serif;
 }
+/* .main::-webkit-scrollbar{
+  display: none;
+} */
 
 .text{
   font-size: 30px;
