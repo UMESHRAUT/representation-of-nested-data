@@ -9,9 +9,43 @@ const data=[
           name:"Program files",
           clicked:false,
           files:[
-            "Windows NT",
-            "Windows mail",
-            "Windows photoVewer"
+            {
+              id:1,
+              name:"Local Disk (:C)",
+              clicked:false,
+              files:[
+                {
+                  id:1,
+                  name:"Program files",
+                  clicked:false,
+                  files:[
+                    {
+                      id:1,
+                      name:"Local Disk (:C)",
+                      clicked:false,
+                    }
+                  ]
+                },
+                      {
+                  id:2,
+                  name:"user",
+                  clicked:false,
+                  files:[
+                    "Nishant",
+                    "Sidhart",
+                  ]
+                },
+                      {
+                  id:3,
+                  name:"Windows",
+                  clicked:false,
+                  files:[
+                    "Boot",
+                    "File Manager",
+                  ]
+                }
+              ]
+            }
           ]
         },
               {
@@ -44,8 +78,43 @@ const data=[
             name:"Personals",
             clicked:false,
             files:[
-              "myPhoto.png",
-              "Resume.pdf"
+              {
+                id:1,
+                name:"Local Disk (:C)",
+                clicked:false,
+                files:[
+                  {
+                    id:1,
+                    name:"Program files",
+                    clicked:false,
+                    files:[
+                      {
+                        id:1,
+                        name:"Local Disk (:C)",
+                        clicked:false,
+                      }
+                    ]
+                  },
+                        {
+                    id:2,
+                    name:"user",
+                    clicked:false,
+                    files:[
+                      "Nishant",
+                      "Sidhart",
+                    ]
+                  },
+                        {
+                    id:3,
+                    name:"Windows",
+                    clicked:false,
+                    files:[
+                      "Boot",
+                      "File Manager",
+                    ]
+                  }
+                ]
+              }
             ]
           },
                 {
